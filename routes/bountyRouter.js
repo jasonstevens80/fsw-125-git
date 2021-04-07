@@ -6,11 +6,11 @@ const { v4: uuidv4 } = require('uuid'); // My variable importing uuid
 // Here is an array of bounty data for my server
 const bounty = [
   {
-    firstName: "Han",
-    lastName: "Solo",
+    firstName: "Kylo",
+    lastName: "Wren",
     living: "true",
     bountyAmount: 2000,
-    type: "smuggler",
+    type: "sith",
     _id: uuidv4(),
   },
   {
@@ -18,23 +18,23 @@ const bounty = [
     lastName: "Skywalker",
     living: "true",
     bountyAmount: 8000,
-    type: "padawan",
+    type: "jedi",
     _id: uuidv4(),
   },
   {
-    firstName: "Leia",
-    lastName: "Organa",
+    firstName: "Lando",
+    lastName: "Calrissian",
     living: "true",
     bountyAmount: 5000,
-    type: "princess",
+    type: "smuggler",
     _id: uuidv4(),
   },
   {
-    firstName: "Obi Wan",
-    lastName: "Kenobi",
-    living: "false",
+    firstName: "Wilhuff",
+    lastName: "tarkin",
+    living: "True",
     bountyAmount: 10000,
-    type: "jedi master",
+    type: "admiral",
     _id: uuidv4(),
   },
 ];
